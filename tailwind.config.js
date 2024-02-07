@@ -11,7 +11,24 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-lg": "url('/image/desktopHero.png')",
+        "hero-md": "url('/image/mobileHero.png')",
+        sitebg: "url('/image/sitebg.jpg')",
       },
+      colors: {
+        menu: "#8DD5E4",
+        "wedding-pink": "#DD6589",
+      },
+    },
+    screens: {
+      sm: "200px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "600px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1300px",
+      // => @media (min-width: 1024px) { ... }
     },
   },
   plugins: [],
