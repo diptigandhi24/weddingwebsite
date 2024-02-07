@@ -9,7 +9,7 @@ const weddingFont = localFont({
 export default function Home() {
   return (
     <main>
-      <section className="w-full h-[80vh] bg-cover bg-no-repeat bg-center sm:bg-hero-md md:bg-hero-md lg:bg-hero-lg"></section>
+      {/* <section className="w-full h-[80vh] bg-cover bg-no-repeat bg-center sm:bg-hero-md md:bg-hero-md lg:bg-hero-lg"></section>
       <section>
         <Navigation />
       </section>
@@ -31,7 +31,10 @@ export default function Home() {
             <EventTabs />
           </div>
         </section>
-      </section>
+      </section> */}
+      <div className="flex justify-center w-screen h-screen items-center bg-origin-content bg-repeat bg-sitebg">
+        <h1 className="text-6xl tracking-wide text-white">Coming Soon!</h1>
+      </div>
     </main>
   );
 }
