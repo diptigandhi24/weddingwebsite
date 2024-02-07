@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+/src/app/image/SVG-edit_files
 
 # testing
 /coverage
@@ -12,6 +13,7 @@
 # next.js
 /.next/
 /out/
+
 
 # production
 /build
@@ -34,3 +36,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+public/image/flower.png
+public/image/flower2.png
+public/image/sunflower.svg
+src/app/image/flower.png
+src/app/image/flower2.png
+src/app/image/sunflower.svg
