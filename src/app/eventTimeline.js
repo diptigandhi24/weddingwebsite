@@ -23,7 +23,6 @@ function CreateSingleEvent({
 }) {
   return (
     <TimelineItem
-      key={id}
       sx={{ border: `${border}`, backgroundColor: `${backgroundColor}` }}
     >
       <TimelineOppositeContent
@@ -74,6 +73,7 @@ export default function EventTimeline({ eventList, eventDate }) {
       {dayList.map((eventObj) => (
         <CreateSingleEvent
           id={eventObj.id}
+          key={eventObj.id}
           time={eventObj.start_time}
           eventName={eventObj.event_name}
           eventDescription={eventObj.event_description}
