@@ -465,17 +465,6 @@ export const WeddingRituals = {
       id: "b8c64874-b030-4ab3-8249-be6792ebcd18",
     },
   ],
-  "9:30 am": [
-    {
-      "Start Time ": "9:30 am",
-      "End Time": "",
-      Ritual: "Break",
-      Description: "\r",
-      border: "1px transparent",
-      backgroundColor: "transparent",
-      id: "50f584f8-28f5-4994-bb05-459eb805bd11",
-    },
-  ],
   "10:30 am": [
     {
       "Start Time ": "10:30 am",
@@ -634,17 +623,6 @@ export const WeddingRituals = {
       border: "1px transparent",
       backgroundColor: "transparent",
       id: "b460dd8a-6f3f-4482-a7b7-f9fab91ba71b",
-    },
-  ],
-  "2:30 pm": [
-    {
-      "Start Time ": "2:30 pm",
-      "End Time": "",
-      Ritual: "Lunch ",
-      Description: "Food is served on a Banana Leaf ",
-      border: "1px transparent",
-      backgroundColor: "transparent",
-      id: "2ad4f952-d028-4124-bbfd-015b0ca8c2fa",
     },
   ],
 };
