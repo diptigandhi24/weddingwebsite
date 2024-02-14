@@ -9,10 +9,164 @@ import {
 import { Day17List } from "@/app/weddingEventList";
 import { useState } from "react";
 import Tab from "@mui/material/Tab";
-
+import Locationsvg from "../../image/svg/Location_Icon.svg";
+import Image from "next/image";
+import map from "../../image/Map.png";
 const Label = ["Phone Numbers", "Venue Details"];
 const EventsList = [Day17List, Day17List];
 
+function ContactDetails() {
+  return (
+    <div>
+      <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <div className="flex justify-between ">
+          <p className="text-lg font-abhy  text-[#7D1566] font-bold ">Sneha</p>
+          <p className="font-avenir text-base text-[#2E4057]">
+            <a href="tel:919901746824">9901746824</a>
+          </p>
+        </div>
+        <p className="font-avenir text-base text-[#2E4057]">
+          Travel Related Queries
+        </p>
+      </div>
+      <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <div className="flex justify-between ">
+          <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
+            Harish Shetty
+          </p>
+          <p className="font-avenir text-base text-[#2E4057]">
+            <a href="tel:919901746824">9880080391</a>
+          </p>
+        </div>
+        <p className="font-avenir text-base text-[#2E4057]">BayNest Manager</p>
+      </div>
+      <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <div className="flex justify-between ">
+          <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
+            Gautham Shetty
+          </p>
+          <p className="font-avenir text-base text-[#2E4057]">
+            <a href="tel:919901746824">9845121498</a>
+          </p>
+        </div>
+        <p className="font-avenir text-base text-[#2E4057]">BayNest Owner</p>
+      </div>
+      <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <div className="flex justify-between ">
+          <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
+            Gauri Marballi
+          </p>
+          <p className="font-avenir text-base text-[#2E4057]">
+            <a href="tel:919901746824">9821712436</a>
+          </p>
+        </div>
+        <p className="font-avenir text-base text-[#2E4057]">Jeet’s Mother</p>
+      </div>
+      <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <div className="flex justify-between ">
+          <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
+            Ravi Marballi
+          </p>
+          <p className="font-avenir text-base text-[#2E4057]">
+            <a href="tel:919901746824">9769985453</a>
+          </p>
+        </div>
+        <p className="font-avenir text-base text-[#2E4057]">Jeet’s Father</p>
+      </div>
+      <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <div className="flex justify-between ">
+          <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
+            Namita Basrur
+          </p>
+          <p className="font-avenir text-base text-[#2E4057]">
+            <a href="tel:919901746824">9845158439</a>
+          </p>
+        </div>
+        <p className="font-avenir text-base text-[#2E4057]">Nitya’s Mother</p>
+      </div>
+      <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <div className="flex justify-between ">
+          <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
+            Girish Basrur
+          </p>
+          <p className="font-avenir text-base text-[#2E4057]">
+            <a href="tel:919901746824">9902053090</a>
+          </p>
+        </div>
+        <p className="font-avenir text-base text-[#2E4057]">Nitya’s Father</p>
+      </div>
+      <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <div className="flex justify-between ">
+          <p className="text-lg font-abhy  text-[#7D1566] font-bold ">Nirica</p>
+          <p className="font-avenir text-base text-[#2E4057]">
+            <a href="tel:919901746824">8754464713</a>
+          </p>
+        </div>
+        <p className="font-avenir text-base text-[#2E4057]">
+          Food Related Queries
+        </p>
+      </div>
+    </div>
+  );
+}
+function VenueDetail() {
+  return (
+    <div>
+      <section className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <a target="_blank" href="https://maps.app.goo.gl/YRTNik8oKvzsDteW6">
+          <div className="grid grid-cols-[auto_10%] ">
+            <div>
+              <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
+                BayNest Beach Resort
+              </p>
+              <p className="font-avenir text-base text-[#2E4057]">
+                Accomodation, Mehendi & Sangeet
+              </p>
+            </div>
+            <div className="flex justify-end">
+              <Image src={Locationsvg} width={30} height={30} />
+            </div>
+          </div>
+        </a>
+        <div className="my-2">
+          <Image src={map} style={{ objectFit: "contain" }} />
+        </div>
+      </section>
+      <section className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <a target="_blank" href="https://maps.app.goo.gl/ctCjWUwq7Ehaxxv16">
+          <div className="grid grid-cols-[auto_10%] ">
+            <div>
+              <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
+                Kadal Mane (Beach House)
+              </p>
+              <p className="font-avenir text-base text-[#2E4057]">Wedding</p>
+            </div>
+            <div className="flex justify-end">
+              <Image src={Locationsvg} width={30} height={30} />
+            </div>
+          </div>
+        </a>
+      </section>
+      <section className="border-b-2 border-dotted border-[#EAE3E8] py-2">
+        <a target="_blank" href="https://maps.app.goo.gl/9iRWjFB3nPBmhUkk8">
+          <div className="grid grid-cols-[auto_10%] ">
+            <div>
+              <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
+                Uva Meridian
+              </p>
+              <p className="font-avenir text-base text-[#2E4057]">
+                Accomodation
+              </p>
+            </div>
+            <div className="flex justify-end">
+              <Image src={Locationsvg} width={30} height={30} />
+            </div>
+          </div>
+        </a>
+      </section>
+    </div>
+  );
+}
 export default function Resources() {
   const [activeTabId, setIndex] = useState(0);
   const handleChange = (event, index) => {
@@ -48,11 +202,12 @@ export default function Resources() {
       </TabsButtonTemplate>
 
       <CustomTabPanelTemplate>
-        {EventsList.map((dayObj, index) => (
-          <CustomTabPanel key={index} value={activeTabId} index={index}>
-            <h1>Resources will be added soon</h1>
-          </CustomTabPanel>
-        ))}
+        <CustomTabPanel key={0} value={activeTabId} index={0}>
+          <ContactDetails />
+        </CustomTabPanel>
+        <CustomTabPanel key={1} value={activeTabId} index={1}>
+          <VenueDetail />
+        </CustomTabPanel>
       </CustomTabPanelTemplate>
     </CustomTabs>
   );

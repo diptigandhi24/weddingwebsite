@@ -14,7 +14,7 @@ export default function SiteContent() {
       </section>
       <section id="resources-section">{<Resources />}</section>
       <section className="bg-[#84CFE7] flex justify-center py-8">
-        <p className="text-white font-abhy font-semibold text-2xl">
+        <p className="text-white font-abhy font-semibold text-lg">
           Thank you for joining our celebration!
         </p>
       </section>
