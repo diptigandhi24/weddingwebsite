@@ -7,10 +7,12 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import { useState } from "react";
 import {
-  bus18th,
   beachHouse17,
   uva17,
   bayNest17,
+  beachHouse18,
+  uva18,
+  bayNest18,
 } from "@/app/weddingEventList";
 const RightArrow = () => (
   <Icon>
@@ -24,21 +26,6 @@ function AccordianHeading({ heading }) {
     </p>
   );
 }
-const busTimeData = {
-  "7:00": [
-    { from: "Baynest", to: "Beach House", transport: "Tempo 1" },
-    { from: "Uva", to: "Beach House", transport: "Tempo 2" },
-  ],
-  "8:30": [
-    { from: "Baynest", to: "Beach House", transport: "Tempo 1" },
-    { from: "Uva", to: "Beach House", transport: "Tempo 2" },
-  ],
-
-  "10:00": [
-    { from: "Baynest", to: "Beach House", transport: "Tempo 1" },
-    { from: "Uva", to: "Beach House", transport: "Tempo 2" },
-  ],
-};
 
 function AccordionBusTemplate({ time, placeList }) {
   return (
@@ -132,7 +119,7 @@ function AccordianSummaryisVisible({ heading, id }) {
   );
 }
 
-export default function AccordionExpandIcon() {
+export function AccordionExpandIcon17() {
   return (
     <div>
       <Accordion>
@@ -151,6 +138,30 @@ export default function AccordionExpandIcon() {
         <AccordianSummaryisVisible heading={"Beach house"} id="3  " />
         <AccordionDetails>
           <AccordianContent timeListwithPlaces={beachHouse17} />
+        </AccordionDetails>
+      </Accordion>
+    </div>
+  );
+}
+export function AccordionExpandIcon18() {
+  return (
+    <div>
+      <Accordion>
+        <AccordianSummaryisVisible heading={"BayNest Beach Resort"} id="1" />
+        <AccordionDetails>
+          <AccordianContent timeListwithPlaces={bayNest18} />
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordianSummaryisVisible heading={"UVA Meridian"} id="2" />
+        <AccordionDetails>
+          <AccordianContent timeListwithPlaces={uva18} />
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordianSummaryisVisible heading={"Beach house"} id="3  " />
+        <AccordionDetails>
+          <AccordianContent timeListwithPlaces={beachHouse18} />
         </AccordionDetails>
       </Accordion>
     </div>

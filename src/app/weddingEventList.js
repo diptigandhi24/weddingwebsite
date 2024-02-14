@@ -104,7 +104,7 @@ export const Day17List = [
     start_time: "10:00 pm",
     end_time: "10:15 pm",
     hrs_end_time: "22:15",
-    event_name: "1 Bus to UVA Meridien",
+    event_name: "1 Bus to UVA Meridian",
     event_description: "Call it a day for an early start",
     border: "1px transparent",
     backgroundColor: "transparent",
@@ -116,7 +116,7 @@ export const Day17List = [
     start_time: "11:00 pm",
     end_time: "11:30 pm",
     hrs_end_time: "23:30",
-    event_name: "2 Buses back to UVA Meridien",
+    event_name: "2 Buses back to UVA Meridian",
     event_description: "Close up shop for Day 1. Prepare for Day 2!",
     border: "1px transparent",
     backgroundColor: "transparent",
@@ -230,7 +230,7 @@ export const Day18List = [
     start_time: "10:00 pm",
     end_time: "10:15 pm",
     hrs_end_time: "22:15",
-    event_name: "1 Bus to UVA Meridien",
+    event_name: "1 Bus to UVA Meridian",
     event_description: "Call it a day for an early start",
     border: "1px transparent",
     backgroundColor: "transparent",
@@ -251,123 +251,227 @@ export const Day18List = [
 ];
 
 export const beachHouse17 = {
-  "5:05am": [
+  "5:05 am": [
     {
-      from: "Train Station",
-      to: "Baynest then Beach House",
+      from: "Kundapur Train Station",
+      to: "Beach House",
       vehicle: "Tempo ",
     },
   ],
-  "7:00pm": [
+  "7:00 am": [
     {
-      from: "Train Station",
+      from: "Kundapur Train Station",
       to: "Beach House",
-      vehicle: "Tempo 1",
+      vehicle: "Tempo ",
     },
   ],
-  "12:00am": [
+  "12:00 am": [
     {
       from: "Baynest",
       to: "Beach House",
-      vehicle: "Tempo 2",
+      vehicle: "Tempo ",
     },
   ],
 };
 
 export const bayNest17 = {
-  "5:05am": [
+  "5:05 am": [
     {
-      from: "Train Station",
-      to: "Baynest then Beach House",
+      from: "Kundapur Train Station",
+      to: "Baynest Beach Resort",
       vehicle: "Tempo ",
     },
   ],
-  "11:15am": [
+  "11:15 am": [
     {
-      from: "Train Station",
-      to: "Baynest",
+      from: " Kundapur Train Station",
+      to: "Baynest Beach Resort",
       vehicle: "Taxi",
-    },
-  ],
-  "12:30pm": [
-    {
-      from: "Uva Meridien",
-      to: "Baynest",
-      vehicle: "Tempo 1",
-    },
-  ],
-  "5:30pm": [
-    {
-      from: "Uva Meridien",
-      to: "Baynest",
-      vehicle: "Tempo 2",
     },
   ],
 };
 export const uva17 = {
-  "22:00": [
+  "12:30 pm": [
     {
-      from: "Baynest",
-      to: "Uva Meridien",
-      vehicle: "Tempo 1",
+      from: "Uva Meridian",
+      to: "Baynest Beach Resort",
+      vehicle: "Tempo ",
     },
   ],
-  "23:00": [
+  "5:30 pm": [
     {
-      from: "Baynest",
-      to: "Uva Meridien",
-      vehicle: "Tempo 2",
+      from: "Uva Meridian",
+      to: "Baynest Beach Resort",
+      vehicle: "Tempo ",
+    },
+  ],
+  "10:00 pm": [
+    {
+      from: "Baynest Beach Resort",
+      to: "Uva Meridian",
+      vehicle: "Tempo ",
+    },
+  ],
+  "11:00 pm": [
+    {
+      from: "Baynest Beach Resort",
+      to: "Uva Meridian",
+      vehicle: "Tempo ",
     },
   ],
 };
 
-export const bus18th = {
-  "7:00": [
-    { from: "Baynest", to: "Beach House", transport: "Tempo 1" },
-    { from: "Uva", to: "Beach House", transport: "Tempo 2" },
-  ],
-  "8:30": [
-    { from: "Baynest", to: "Beach House", transport: "Tempo 1" },
-    { from: "Uva", to: "Beach House", transport: "Tempo 2" },
-  ],
-
-  "10:00": [
-    { from: "Baynest", to: "Beach House", transport: "Tempo 1" },
-    { from: "Uva", to: "Beach House", transport: "Tempo 2" },
-  ],
-
-  "2:30": [
-    { from: "Beach House", to: "UvA ", transport: "Tempo 2" },
-    { from: "Beach House ", to: "Baynest", transport: "Tempo 1" },
+export const bayNest18 = {
+  "7:00 am": [
     {
-      from: "Beach House ",
-      to: "Train Station",
-      transport: "Taxi ",
+      from: "BayNest Beach Resort",
+      to: "Beach House",
+      vehicle: "Tempo ",
     },
   ],
-
-  " 3:00": [
-    { from: "Beach House ", to: "UvA", transport: "Tempo 2" },
-    { from: "Beach House ", to: "Baynest", transport: "Tempo 1" },
+  "8:30 am": [
+    {
+      from: "BayNest Beach Resort",
+      to: "Beach House",
+      vehicle: "Tempo ",
+    },
   ],
-
-  " 7:45": [
-    { from: "Baynest", to: "Train Station", transport: "Bus 1" },
+  "10:00 am": [
+    {
+      from: "Baynest Beach Resort",
+      to: "Beach House",
+      vehicle: "Tempo ",
+    },
+  ],
+  "2:30 pm": [
     {
       from: "Beach House",
-      to: "Train Station",
-      transport: "Bus 1",
+      to: "Baynest Beach Resort",
+      vehicle: "Tempo ",
     },
   ],
-  " 9:15": [{ from: "Baynest", to: "Train Station", transport: "Tempo 1" }],
-  "11:00": [
+  "3:00 pm": [
     {
-      from: "Beach House ",
-      to: "Train Station",
-      transport: "Taxi ",
+      from: "Beach House",
+      to: "Baynest Beach Resort",
+      vehicle: "Tempo ",
+    },
+  ],
+  "7:45 pm": [
+    {
+      from: "Baynest Beach Resort",
+      to: "Kundapur Train Station",
+      vehicle: "Bus ",
+    },
+  ],
+  "9:15 pm": [
+    {
+      from: "Baynest Beach Resort",
+      to: "Kundapur Train Station",
+      vehicle: "temp ",
     },
   ],
 };
+export const uva18 = {
+  "7:00 am": [
+    {
+      from: "Uva Meridian",
+      to: "Beach House",
+      vehicle: "Tempo ",
+    },
+  ],
+  "8:30 am": [
+    {
+      from: "Uva Meridian",
+      to: "Beach House",
+      vehicle: "Tempo ",
+    },
+  ],
+  "10:00 am": [
+    {
+      from: "Uva Meridian",
+      to: "Beach House",
+      vehicle: "Tempo ",
+    },
+  ],
+  "2:30 pm": [
+    {
+      from: "Uva Meridian",
+      to: "Beach House",
+      vehicle: "Tempo ",
+    },
+  ],
+  "3:00 pm": [
+    {
+      from: "Uva Meridian",
+      to: "Beach House",
+      vehicle: "Tempo ",
+    },
+  ],
+};
+export const beachHouse18 = {
+  "7:45 pm": [
+    {
+      from: "Beach House",
+      to: "Kundapur Train Station",
+      vehicle: "Bus",
+    },
+  ],
+  "11:00 pm": [
+    {
+      from: "Beach House",
+      to: "Kundapur Train Station",
+      vehicle: "Taxi",
+    },
+  ],
+};
+// export const bus18th = {
+//   "7:00 am": [
+//     { from: "Baynest", to: "Beach House", transport: "Tempo 1" },
+//     { from: "Uva", to: "Beach House", transport: "Tempo 2" },
+//   ],
+//   "8:30 am": [
+//     { from: "Baynest", to: "Beach House", transport: "Tempo 1" },
+//     { from: "Uva", to: "Beach House", transport: "Tempo 2" },
+//   ],
+
+//   "10:00 am": [
+//     { from: "Baynest", to: "Beach House", transport: "Tempo 1" },
+//     { from: "Uva", to: "Beach House", transport: "Tempo 2" },
+//   ],
+
+//   "2:30 pm": [
+//     { from: "Beach House", to: "UvA ", transport: "Tempo 2" },
+//     { from: "Beach House ", to: "Baynest", transport: "Tempo 1" },
+//     {
+//       from: "Beach House ",
+//       to: "Train Station",
+//       transport: "Taxi ",
+//     },
+//   ],
+
+//   " 3:00 pm": [
+//     { from: "Beach House ", to: "UvA", transport: "Tempo 2" },
+//     { from: "Beach House ", to: "Baynest", transport: "Tempo 1" },
+//   ],
+
+//   " 7:45 pm": [
+//     { from: "Baynest", to: "Train Station", transport: "Bus 1" },
+//     {
+//       from: "Beach House",
+//       to: "Train Station",
+//       transport: "Bus 1",
+//     },
+//   ],
+//   " 9:15 pm": [{ from: "Baynest", to: "Train Station", transport: "Tempo 1" }],
+//   "11:00 pm": [
+//     {
+//       from: "Beach House ",
+//       to: "Train Station",
+//       transport: "Taxi ",
+//     },
+//   ],
+// };
 
 export const WeddingRituals = {
   "7:00 am": [

@@ -9,7 +9,8 @@ import {
 import { Day17List } from "@/app/weddingEventList";
 import { useState } from "react";
 import Tab from "@mui/material/Tab";
-import AccordionExpandIcon from "./accordian";
+import { AccordionExpandIcon18, AccordionExpandIcon17 } from "./accordian";
+
 const Label = ["17 Feb", "18 Feb"];
 const EventsList = [Day17List, Day17List, Day17List];
 
@@ -53,11 +54,13 @@ export default function BusSchedule() {
               Choose accommodation for bus schedule
             </p>
           </div>
-          {EventsList.map((dayObj, index) => (
-            <CustomTabPanel key={index} value={activeTabId} index={index}>
-              <AccordionExpandIcon />
-            </CustomTabPanel>
-          ))}
+
+          <CustomTabPanel key={1} value={activeTabId} index={0}>
+            <AccordionExpandIcon17 />
+          </CustomTabPanel>
+          <CustomTabPanel key={2} value={activeTabId} index={1}>
+            <AccordionExpandIcon18 />
+          </CustomTabPanel>
         </div>
       </CustomTabPanelTemplate>
     </CustomTabs>
