@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Navigation() {
   return (
-    <div className=" bg-[#84CFE7] grid grid-cols-2 gap-x-2 gap-y-2 pt-2 pb-2 ">
+    <div className=" grid grid-cols-2 gap-y-2 p-2 ">
       <Link href="#itinerary-section">
         <NavCard
           heading={"Itinerary"}

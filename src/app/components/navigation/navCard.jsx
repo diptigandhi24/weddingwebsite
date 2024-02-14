@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function NavCard({ url, heading, description }) {
   return (
     <div className="flex justify-center">
-      <div className="bg-white rounded-2xl p-4 flex flex-col justify-start sm:h-[180px] lg:h-[160px] lg:w-[60%] sm:w-[80%] md:w-[80%]">
+      <div className="bg-white rounded-2xl p-3 flex flex-col justify-start sm:h-[170px] lg:h-[160px] lg:w-[60%] sm:w-[90%] md:w-[80%]">
         <span>
           <Image
             src={url}

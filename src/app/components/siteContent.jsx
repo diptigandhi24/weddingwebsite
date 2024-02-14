@@ -5,9 +5,7 @@ import Resources from "./resources";
 export default function SiteContent() {
   return (
     <div>
-      <section>
-        <Navigation />
-      </section>
+      {/* <section> <Navigation /> }</section> */}
       <section id="itinerary-section">
         <Itinerary />
       </section>
