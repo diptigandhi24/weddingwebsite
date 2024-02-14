@@ -11,8 +11,8 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "hero-lg": "url('/image/landingPage_bg.png')",
-        "hero-md": "url('/image/mobileHero.png')",
+        "hero-banner": "url('/image/mobile_landing.png')",
+
         sitebg: "url('/image/sitebg.jpg')",
       },
       colors: {
