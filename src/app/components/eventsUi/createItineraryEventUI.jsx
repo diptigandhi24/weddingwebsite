@@ -81,24 +81,12 @@ const CreateItineraryEvent = memo(function CreateItineraryEvent({
       id={id}
       className=" border-b-2 border-dotted border-[#EAE3E8] py-2 relative "
     >
-      {eventType === "current" ? (
-        <CreateHightLightEvent
-          time={time}
-          eventName={eventName}
-          eventDescription={eventDescription}
-          venue={venue}
-        />
-      ) : (
-        <CreateRegularEvent
-          time={time}
-          eventName={eventName}
-          eventDescription={eventDescription}
-          venue={venue}
-        />
-      )}
-      {eventType === "finished" ? (
-        <div className="absolute top-0 bg-white opacity-80 w-full h-full"></div>
-      ) : null}
+      <CreateRegularEvent
+        time={time}
+        eventName={eventName}
+        eventDescription={eventDescription}
+        venue={venue}
+      />
     </section>
   );
 });

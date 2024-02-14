@@ -10,7 +10,6 @@ export function updateEventTypeState(eventList, currentDateObj) {
   let currentTime = `${currentDateObj.getHours()}:${currentDateObj.getMinutes()}`;
   let eventIndex = 0;
   let eventTrackIndex = null;
-  console.log("Initialiser function is called ");
   function addEventType(time, eventList, index) {
     let currentTimeinSecs = convertToSecs(time);
     let indexStartTimeinSecs = convertToSecs(eventList[index].hrs_start_time);
@@ -47,10 +46,11 @@ export function updateEventTypeState(eventList, currentDateObj) {
 export function useEventHook(list) {
   const dateObj = new Date();
   const currentDate = dateObj.getDate();
-  let [eventStateList, updateEventStateList] = useState(() => {
-    return updateEventTypeState(list, dateObj);
-  });
+  // let [eventStateList, updateEventStateList] = useState(() => {
+  //   return updateEventTypeState(list, dateObj);
+  // });
 
+  let [eventList, updateEventStateList] = useState(list);
   // useEffect(() => {
   //   let updatedState = [...eventStateList.eventList];
   //   let temp = 0;
@@ -130,5 +130,5 @@ export function useEventHook(list) {
   //   // }
   //   // return () => (setTimeOutId !== null ? clearTimeout(setTimeOutId) : null);
   // }, [eventStateList.eventList]);
-  return eventStateList.eventList;
+  return eventList;
 }

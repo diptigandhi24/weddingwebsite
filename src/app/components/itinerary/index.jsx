@@ -6,13 +6,14 @@ import {
   CustomTabPanelTemplate,
   TabsButtonTemplate,
 } from "../tabs";
-import { Day17List } from "@/app/weddingEventList";
+import { Day17List, Day18List } from "@/app/weddingEventList";
 import { useState } from "react";
 import Tab from "@mui/material/Tab";
 import ItineraryTimeline from "./eventTimeItinerary";
+import WeddingRitualsTimeline from "./weddingRituals";
 
 const Label = ["17 Feb", "18 Feb", "Wedding Rituals"];
-const EventsList = [Day17List, Day17List, Day17List];
+const EventsList = [Day17List, Day18List];
 import CreateItineraryEvent from "../eventsUi/createItineraryEventUI";
 
 export default function Itinerary() {
@@ -55,6 +56,11 @@ export default function Itinerary() {
             <ItineraryTimeline list={dayObj} />
           </CustomTabPanel>
         ))}
+      </CustomTabPanelTemplate>
+      <CustomTabPanelTemplate>
+        <CustomTabPanel value={activeTabId} index={2}>
+          <WeddingRitualsTimeline />
+        </CustomTabPanel>
       </CustomTabPanelTemplate>
     </CustomTabs>
   );

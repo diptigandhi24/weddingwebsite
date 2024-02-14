@@ -320,6 +320,7 @@ export const uva17 = {
     },
   ],
 };
+
 export const bus18th = {
   "7:00": [
     { from: "Baynest", to: "Beach House", transport: "Tempo 1" },
@@ -364,6 +365,286 @@ export const bus18th = {
       from: "Beach House ",
       to: "Train Station",
       transport: "Taxi ",
+    },
+  ],
+};
+
+export const WeddingRituals = {
+  "7:00 am": [
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Welcome the Groom (Edra Ghalsani) ",
+      Description:
+        "Welcoming the Groom and his family with an opportunity to check themselves out in hand-held mirrors and adorn themselves with haldi-kumkum and flowers. \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "7b567096-d9bf-4030-b6e5-6f9ae5079ba4",
+    },
+    {
+      "Start Time ": "7:00 am",
+      "End Time": "",
+      Ritual: "Exchange of gifts (Phool Mudi Sado)",
+      Description:
+        "The parents of the Bride and Groom will gift both of them respectively  (Yay for us!)\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "53ca8dc8-8b40-409b-9bfa-748ef61c9319",
+    },
+    {
+      "Start Time ": "7:00 am",
+      "End Time": "",
+      Ritual: "Var Pooja ",
+      Description:
+        "The groom is given gifts and welcomed as a form of Vishnu \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "3ff6f609-43a1-49df-b545-2b5bd5189549",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Vadhu Pooja",
+      Description:
+        "The elder married women from her side will then bless and adorn the Bride with green bangles and tie a chipput (mangalsutra) around her neck. \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "bdcbe9e2-9bc9-4b80-b489-3b7a98c7536b",
+    },
+  ],
+  "8:00 am": [
+    {
+      "Start Time ": "8:00 am",
+      "End Time": "",
+      Ritual: "Udda Muhurth for the Bride ",
+      Description:
+        "Elder married women will then 'teach' the Bride how to crush 'udad' dal, Black gram and Turmeric in a 'daanthe'\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "5aaf92ea-ad1b-43c8-94dc-aaef8227ffcf",
+    },
+  ],
+  "8:30 am": [
+    {
+      "Start Time ": "8:30 am",
+      "End Time": "",
+      Ritual: "Breakfast ",
+      Description: "\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "25fd2c6b-aa78-432a-a49c-b37548fb6c2c",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Sankalp and Ganpati Pooja",
+      Description:
+        "The setting of intention and the praying to Lord Ganesha to remove obstacles for the wedding and the marriage of the couple. \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "d198020f-6ab7-4e77-8210-ffae53914090",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Haldi for the Groom",
+      Description:
+        "The Groom's sisters will symbolically prepare him for the wedding. \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "3f5648fe-34c2-4b2b-8009-3c0cb95e0bb4",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Udda Muhurth for the Groom",
+      Description:
+        "Elder married women will then 'teach' the Groom how to crush 'udad' dal, Black gram and Turmeric in a 'daanthe'\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "b8c64874-b030-4ab3-8249-be6792ebcd18",
+    },
+  ],
+  "9:30 am": [
+    {
+      "Start Time ": "9:30 am",
+      "End Time": "",
+      Ritual: "Break",
+      Description: "\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "50f584f8-28f5-4994-bb05-459eb805bd11",
+    },
+  ],
+  "10:30 am": [
+    {
+      "Start Time ": "10:30 am",
+      "End Time": "",
+      Ritual: "Madhupark Pooja ",
+      Description:
+        "The Groom and his family are welcomed again as the final rituals get nearer. AKA BARAAT!  After, the groom will be given more gifts (His luck is just great!) \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "a62ee16f-0363-4872-a012-32b0976909e7",
+    },
+  ],
+  "11:15 am": [
+    {
+      "Start Time ": "11:15 am",
+      "End Time": "",
+      Ritual: "Antarpath",
+      Description:
+        "The Bride enters the mantap separated from her Groom by a cloth \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "2a39120a-ee43-4121-a947-61e22a8d3216",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Exchange of Garlands and Akshataropan ",
+      Description:
+        "They will exchange garlands as an exchange of love and trust. They will then be blessed. The Bride and Groom will also vow to live and provide righteously towards the other. \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "d4e4cca8-8312-49fd-924e-77b8d13b683c",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Sabha Pooja ",
+      Description:
+        "The guests will be requested to bless and recognise the marriage and partnership of the couple.\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "72323cc4-9364-47b8-928b-125ede3e1a64",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Mayapash and Kankandharana",
+      Description:
+        "The couple will be tied together to represent their union and they will then tie protective threads around each other's wrist. \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "62e349bb-b737-4ed3-8a29-d2e280e63ad5",
+    },
+  ],
+  "11:49 am": [
+    {
+      "Start Time ": "11:49 am",
+      "End Time": "",
+      Ritual: "Kashitaali Pooja ",
+      Description:
+        "The taali is a sign of being married, of crossing a milestone. The taali and necklace will be blessed and then Groom will tie a Kashitaali around the Bride's neck and she will tie a necklace around his. \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "74c357dd-9ddf-47ac-887f-f74e04fccde9",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Lagna and Laaya Homa",
+      Description:
+        "Bride's sisters will provide the Bride with puffed rice to offer into the Fire to strengthen her moving into another stage of her life. \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "bcaf65af-02cc-4e58-97fb-d98f13705d97",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Saptapadi ",
+      Description:
+        "The Couple will take 7 steps together representing the provision of nourishment, energy, adjustment, joy & peace of mind, prosperity, commitment and righteousness\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "b801a82c-9bdb-4121-be12-d2aa8c444b09",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Pramanvachan",
+      Description:
+        "The Bride and Groom will publicly give their word to be partners and friends\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "7718c56f-40a1-4b93-8159-a569a5227d7a",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Providing Protection ",
+      Description:
+        "The brothers of the Bride will place toe rings on her toes as a promise to protect and support her\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "d3a3fdf4-1088-4af5-a2ee-953c25efc7c8",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Indra-Indrani Pooja ",
+      Description:
+        "The couple, her parents and another married couple (Mother's Brother and Wife) will symbolically drop the couple off after the marriage. \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "98ea40e7-a4dd-41ff-b77c-22995fe0f34a",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Arundhati Darshan and Nagavali Pooja",
+      Description:
+        "The couple will find a symbolic 2 star constellation so as to represent themselves. They will then seek blessings from the ancestors\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "d5e0aac7-7689-43b7-9a35-a28bf2ea9128",
+    },
+  ],
+  "12:45 pm": [
+    {
+      "Start Time ": "12:45 pm",
+      "End Time": "",
+      Ritual: "Vokkoli ",
+      Description:
+        "A fun game where the Bride and Groom need to find their respective rings in a bucket of turmeric water\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "95b2d4d6-b43c-4448-b0b2-b66394638811",
+    },
+  ],
+  "1:00 pm": [
+    {
+      "Start Time ": "1:00 pm",
+      "End Time": "",
+      Ritual: "Vayan Pooja",
+      Description:
+        "The Bride will perform a Gowri Pooja as her first pooja as a married woman. \r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "15faa040-8853-4807-8a35-badeccb7c9da",
+    },
+    {
+      "Start Time ": "",
+      "End Time": "",
+      Ritual: "Arati and Ashirwad",
+      Description:
+        "The couple will be blessed with an Arati and receive Ashirwad from all the family.\r",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "b460dd8a-6f3f-4482-a7b7-f9fab91ba71b",
+    },
+  ],
+  "2:30 pm": [
+    {
+      "Start Time ": "2:30 pm",
+      "End Time": "",
+      Ritual: "Lunch ",
+      Description: "Food is served on a Banana Leaf ",
+      border: "1px transparent",
+      backgroundColor: "transparent",
+      id: "2ad4f952-d028-4124-bbfd-015b0ca8c2fa",
     },
   ],
 };
