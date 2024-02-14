@@ -1,4 +1,4 @@
-*******Working Design of Tabs******
+// *******Working Design of Tabs******
 
 "use client";
 import Tabs from "@mui/material/Tabs";
@@ -25,7 +25,6 @@ export default function Itinerary() {
   };
   //   const selectedStyle = { opacity: "1", color: "#7D1566" };
   //   const [selectedTab, updateSelectedTab] = useState[0];
-
 
   return (
     <div className="bg-[#84CFE7] pt-20 flex justify-center flex-col">
