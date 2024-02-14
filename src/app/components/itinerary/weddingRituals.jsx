@@ -9,7 +9,10 @@ function CreateWeddingEvent() {
       {" "}
       {ritualTimeList.map((objectKey, index) => {
         return (
-          <div className="grid grid-flow-col  grid-cols-[10%_auto] p-2">
+          <div
+            key={index}
+            className="grid grid-flow-col  grid-cols-[10%_auto] p-2"
+          >
             <div>
               <Image src={flower} alt="My SVG" width={15} height={15}></Image>
             </div>
@@ -21,7 +24,10 @@ function CreateWeddingEvent() {
               </div>
               {WeddingRituals[objectKey].map((detailsObject, index) => {
                 return (
-                  <div className=" border-b-2 border-dotted border-[#EAE3E8] py-2 relative">
+                  <div
+                    key={index}
+                    className=" border-b-2 border-dotted border-[#EAE3E8] py-2 relative"
+                  >
                     <p className="my-2 text-lg font-abhy  text-[#7D1566]">
                       {console.log(
                         "Ritual name",
