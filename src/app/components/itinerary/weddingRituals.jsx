@@ -1,7 +1,7 @@
 import Image from "next/image";
 import flower from "../../image/svg/TimelineFlower.svg";
 import { WeddingRituals } from "@/app/weddingEventList";
-
+import RitualsEmptyState from "../../image/Rituals_Empty State.svg";
 function CreateWeddingEvent() {
   let ritualTimeList = Object.keys(WeddingRituals);
   return (
@@ -50,10 +50,26 @@ function CreateWeddingEvent() {
   );
 }
 
-export default function WeddingRitualsTimeline(list) {
+function RitualPlaceholder() {
   return (
-    <>
-      <CreateWeddingEvent />
-    </>
+    <div className="flex flex-col justify-center align-middle items-center h-[600px]">
+      <Image
+        src={RitualsEmptyState}
+        style={{ objectFit: "contain" }}
+        height={230}
+        width={230}
+      />
+      <p className="text-[#7D1566] font-avenir text-base">
+        Follow along on the day!
+      </p>
+    </div>
+  );
+}
+
+export default function WeddingRitualsTimeline(list) {
+  const dateObj = new Date();
+  const currentDate = dateObj.getDate();
+  return (
+    <>{currentDate >= 18 ? <CreateWeddingEvent /> : <RitualPlaceholder />}</>
   );
 }
