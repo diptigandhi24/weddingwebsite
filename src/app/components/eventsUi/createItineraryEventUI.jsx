@@ -56,7 +56,7 @@ function CreateRegularEvent({ time, eventName, eventDescription, venue }) {
         <div>
           <p className="my-2 text-lg font-abhy  text-[#7D1566]">{eventName}</p>
           <p className="my-2 text-base font-avenir text-[#7D1566]">
-            {eventDescription}
+            {eventDescription !== "none" ? eventDescription : ""}
           </p>
         </div>
         <div className="flex flex-row justify-end">
