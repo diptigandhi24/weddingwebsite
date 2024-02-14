@@ -16,7 +16,7 @@ export default function NavCard({ url, heading, description }) {
         <h4 className="font-abhy text-[#EF475F] mt-1 mb-1 font-bold">
           {heading}
         </h4>
-        <p className=" text-[#2E4057] text-base">{description}</p>
+        <p className=" text-[#2E4057] text-base font-avenir">{description}</p>
       </div>
     </div>
   );
