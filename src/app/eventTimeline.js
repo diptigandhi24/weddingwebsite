@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
@@ -11,7 +10,7 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
 import FilterVintageIcon from "@mui/icons-material/FilterVintage";
 import { getCurrentOrNextEvent } from "./scheduleEvent";
-import { useEventHook } from "./useEvent";
+import { useEventHook } from "./components/itinerary/useEvent";
 
 function CreateSingleEvent({
   id,
@@ -56,12 +55,18 @@ function CreateSingleEvent({
 export default function EventTimeline({ eventList, eventDate }) {
   const dateObj = new Date();
   const currentDate = dateObj.getDate();
-  let dayList = useEventHook(eventList);
-  // if (currentDate === eventDate) {
-  //   getCurrentOrNextEvent(eventList, dateObj);
-  // } else {
-  //   console.log("It's not the event time");
-  // }
+  let dayList = eventList;
+  if (currentDate === eventDate) {
+    console.log(
+      "Is it the event day",
+      currentDate,
+      eventDate,
+      currentDate === eventDate
+    );
+    dayList = useEventHook(eventList);
+  } else {
+    console.log("It's not the event time");
+  }
   return (
     <Timeline
       sx={{

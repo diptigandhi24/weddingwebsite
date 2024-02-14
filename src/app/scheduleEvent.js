@@ -1,14 +1,3 @@
-import { useState, useEffect } from "react";
-
-/**
- * state Time, end Time, current time
- *
- * Event_EndTime > Current Time >= State Time
- *
- * eventObj{start_Time:{}}
- * so EventTimeline will point to the upcoming event or the current Event that is going on
- */
-
 export function getCurrentOrNextEvent(eventList, currentDateObj) {
   let currentTime = `${currentDateObj.getHours()}:${currentDateObj.getMinutes()}`;
   let eventIndex = 0;
@@ -16,7 +5,7 @@ export function getCurrentOrNextEvent(eventList, currentDateObj) {
   function findCurrentEvent(time, eventObj, index) {
     switch (true) {
       case time >= eventObj[index].hrs_start_time &&
-        time <= eventObj[index].hrs_end_time:
+        time < eventObj[index].hrs_end_time:
         let activeEvent1 = { eventType: "current", id: index };
         return activeEvent1;
         break;
@@ -40,5 +29,5 @@ export function getCurrentOrNextEvent(eventList, currentDateObj) {
     }
   }
 
-  return findCurrentEvent("12:30", eventList, eventIndex);
+  return findCurrentEvent("18:30", eventList, eventIndex);
 }

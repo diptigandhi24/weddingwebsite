@@ -14,7 +14,7 @@ function CustomTabPanel({ children, value, index }) {
       role="tabpanel"
       hidden={value !== index}
       id={`simple-tabpanel-${index}`}
-      className="text-black flex justify-center"
+      className="text-black"
     >
       {value === index && <Box sx={{ p: 2 }}>{children}</Box>}
     </div>
@@ -29,7 +29,7 @@ export default function EventTabs() {
   };
 
   return (
-    <div className="w-full p-2 mb-10 ">
+    <div className="w-full  mb-10 ">
       <Box
         sx={{
           width: "100%",
@@ -42,7 +42,9 @@ export default function EventTabs() {
             position: "-webkit-sticky",
             position: "sticky",
             top: 0,
+            backgroundColor: "whitesmoke",
           }}
+          className="z-50"
         >
           <Tabs
             value={index}
@@ -61,20 +63,20 @@ export default function EventTabs() {
               aria-controls={`simple-tabpanel-${1}`}
             />
             <Tab
-              label="Weddinh"
+              label="Wedding"
               id={`simple-tab-${2}`}
               aria-controls={`simple-tabpanel-${2}`}
             />
           </Tabs>
         </Box>
         <CustomTabPanel value={index} index={0}>
-          <EventTimeline eventList={Day1List} eventDate={5} />
+          <EventTimeline eventList={Day1List} eventDate={7} />
         </CustomTabPanel>
         <CustomTabPanel value={index} index={1}>
-          <EventTimeline eventList={Day2List} eventDate={6} />
+          <EventTimeline eventList={Day2List} eventDate={8} />
         </CustomTabPanel>
         <CustomTabPanel value={index} index={2}>
-          <EventTimeline eventList={Day2List} eventDate={6} />
+          <EventTimeline eventList={Day2List} eventDate={9} />
         </CustomTabPanel>
       </Box>
     </div>

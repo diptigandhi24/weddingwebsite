@@ -11,13 +11,17 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "hero-lg": "url('/image/desktopHero.png')",
+        "hero-lg": "url('/image/landingPage_bg.png')",
         "hero-md": "url('/image/mobileHero.png')",
         sitebg: "url('/image/sitebg.jpg')",
       },
       colors: {
         menu: "#8DD5E4",
         "wedding-pink": "#DD6589",
+      },
+      fontFamily: {
+        abhy: ["var(--font-weddingFont)"],
+        avenir: ["var(--font-avenir)"],
       },
     },
     screens: {
