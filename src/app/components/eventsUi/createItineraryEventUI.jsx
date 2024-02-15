@@ -60,7 +60,11 @@ function CreateRegularEvent({ time, eventName, eventDescription, venue }) {
           </p>
         </div>
         <div className="flex flex-row justify-end">
-          <Image src={location} alt="My SVG" width={15} height={15}></Image>
+          {venue === "" ? (
+            <div></div>
+          ) : (
+            <Image src={location} alt="My SVG" width={15} height={15}></Image>
+          )}
 
           <p className="font-avenir text-[#B5648B] text-sm">{venue}</p>
         </div>
