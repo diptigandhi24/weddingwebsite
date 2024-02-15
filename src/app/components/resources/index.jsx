@@ -33,7 +33,7 @@ function ContactDetails() {
       <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
         <div className="grid grid-cols-[auto_10%] justify-between items-center ">
           <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
-            Harish Shetty
+            Narayan Shetty
           </p>
           <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
             <a href="tel:9880080391">
