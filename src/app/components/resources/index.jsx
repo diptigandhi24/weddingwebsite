@@ -146,7 +146,11 @@ function VenueDetail() {
           </div>
         </a>
         <div className="my-2">
-          <Image src={map} style={{ objectFit: "contain" }} />
+          <Image
+            src={map}
+            style={{ objectFit: "contain" }}
+            placeholder="blur"
+          />
         </div>
       </section>
       <section className="border-b-2 border-dotted border-[#EAE3E8] py-2">
