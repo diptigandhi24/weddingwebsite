@@ -36,7 +36,7 @@ function ContactDetails() {
             Harish Shetty
           </p>
           <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
-            <a href="tel:919901746824">
+            <a href="tel:9880080391">
               <Image src={phonesvg} width={30} height={30} />
             </a>
           </p>
@@ -51,7 +51,7 @@ function ContactDetails() {
             Gautham Shetty
           </p>
           <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
-            <a href="tel:919901746824">
+            <a href="tel:9845121498">
               <Image src={phonesvg} width={30} height={30} />
             </a>
           </p>
@@ -64,7 +64,7 @@ function ContactDetails() {
             Gauri Marballi
           </p>
           <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
-            <a href="tel:919901746824">
+            <a href="tel:9821712436">
               <Image src={phonesvg} width={30} height={30} />
             </a>
           </p>
@@ -77,7 +77,7 @@ function ContactDetails() {
             Ravi Marballi
           </p>
           <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
-            <a href="tel:919901746824">
+            <a href="tel:9769985453">
               <Image src={phonesvg} width={30} height={30} />
             </a>
           </p>
@@ -90,7 +90,7 @@ function ContactDetails() {
             Namita Basrur
           </p>
           <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
-            <a href="tel:919901746824">
+            <a href="tel:99845158439">
               <Image src={phonesvg} width={30} height={30} />
             </a>
           </p>
@@ -103,7 +103,7 @@ function ContactDetails() {
             Girish Basrur
           </p>
           <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
-            <a href="tel:919901746824">
+            <a href="tel:9902053090">
               <Image src={phonesvg} width={30} height={30} />
             </a>
           </p>
@@ -114,7 +114,7 @@ function ContactDetails() {
         <div className="grid grid-cols-[auto_10%] justify-between items-center ">
           <p className="text-lg font-abhy  text-[#7D1566] font-bold ">Nirica</p>
           <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
-            <a href="tel:919901746824">
+            <a href="tel:8754464713">
               <Image src={phonesvg} width={30} height={30} />
             </a>
           </p>

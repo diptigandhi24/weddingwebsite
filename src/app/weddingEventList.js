@@ -360,7 +360,7 @@ export const bayNest18 = {
     {
       from: "Baynest Beach Resort",
       to: "Kundapur Train Station",
-      vehicle: "temp ",
+      vehicle: "tempo ",
     },
   ],
 };
