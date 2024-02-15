@@ -137,7 +137,7 @@ function VenueDetail() {
                 BayNest Beach Resort
               </p>
               <p className="font-avenir text-base text-[#2E4057]">
-                Accomodation, Mehendi & Sangeet
+                Accommodation, Mehendi & Sangeet
               </p>
             </div>
             <div className="flex justify-end">
@@ -176,7 +176,7 @@ function VenueDetail() {
                 Uva Meridian
               </p>
               <p className="font-avenir text-base text-[#2E4057]">
-                Accomodation
+                Accommodation
               </p>
             </div>
             <div className="flex justify-end">
