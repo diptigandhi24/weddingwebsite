@@ -13,93 +13,110 @@ import Locationsvg from "../../image/svg/Location_Icon.svg";
 import Image from "next/image";
 import map from "../../image/Map.png";
 const Label = ["Phone Numbers", "Venue Details"];
-const EventsList = [Day17List, Day17List];
-
+import phonesvg from "../../image/svg/Call.svg";
 function ContactDetails() {
   return (
     <div>
       <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
-        <div className="flex justify-between ">
+        <div className="grid grid-cols-[auto_10%] justify-between items-center ">
           <p className="text-lg font-abhy  text-[#7D1566] font-bold ">Sneha</p>
+          <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
+            <a href="tel:919901746824">
+              <Image src={phonesvg} width={30} height={30} />
+            </a>
+          </p>
           <p className="font-avenir text-base text-[#2E4057]">
-            <a href="tel:919901746824">9901746824</a>
+            Travel Related Queries
           </p>
         </div>
-        <p className="font-avenir text-base text-[#2E4057]">
-          Travel Related Queries
-        </p>
       </div>
       <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
-        <div className="flex justify-between ">
+        <div className="grid grid-cols-[auto_10%] justify-between items-center ">
           <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
             Harish Shetty
           </p>
+          <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
+            <a href="tel:919901746824">
+              <Image src={phonesvg} width={30} height={30} />
+            </a>
+          </p>
           <p className="font-avenir text-base text-[#2E4057]">
-            <a href="tel:919901746824">9880080391</a>
+            BayNest Manager
           </p>
         </div>
-        <p className="font-avenir text-base text-[#2E4057]">BayNest Manager</p>
       </div>
       <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
-        <div className="flex justify-between ">
+        <div className="grid grid-cols-[auto_10%] justify-between items-center ">
           <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
             Gautham Shetty
           </p>
-          <p className="font-avenir text-base text-[#2E4057]">
-            <a href="tel:919901746824">9845121498</a>
+          <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
+            <a href="tel:919901746824">
+              <Image src={phonesvg} width={30} height={30} />
+            </a>
           </p>
+          <p className="font-avenir text-base text-[#2E4057]">BayNest Owner</p>
         </div>
-        <p className="font-avenir text-base text-[#2E4057]">BayNest Owner</p>
       </div>
       <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
-        <div className="flex justify-between ">
+        <div className="grid grid-cols-[auto_10%] justify-between items-center ">
           <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
             Gauri Marballi
           </p>
-          <p className="font-avenir text-base text-[#2E4057]">
-            <a href="tel:919901746824">9821712436</a>
+          <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
+            <a href="tel:919901746824">
+              <Image src={phonesvg} width={30} height={30} />
+            </a>
           </p>
+          <p className="font-avenir text-base text-[#2E4057]">Jeet’s Mother</p>
         </div>
-        <p className="font-avenir text-base text-[#2E4057]">Jeet’s Mother</p>
       </div>
       <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
-        <div className="flex justify-between ">
+        <div className="grid grid-cols-[auto_10%] justify-between items-center ">
           <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
             Ravi Marballi
           </p>
-          <p className="font-avenir text-base text-[#2E4057]">
-            <a href="tel:919901746824">9769985453</a>
+          <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
+            <a href="tel:919901746824">
+              <Image src={phonesvg} width={30} height={30} />
+            </a>
           </p>
+          <p className="font-avenir text-base text-[#2E4057]">Jeet’s Father</p>
         </div>
-        <p className="font-avenir text-base text-[#2E4057]">Jeet’s Father</p>
       </div>
       <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
-        <div className="flex justify-between ">
+        <div className="grid grid-cols-[auto_10%] justify-between items-center ">
           <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
             Namita Basrur
           </p>
-          <p className="font-avenir text-base text-[#2E4057]">
-            <a href="tel:919901746824">9845158439</a>
+          <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
+            <a href="tel:919901746824">
+              <Image src={phonesvg} width={30} height={30} />
+            </a>
           </p>
+          <p className="font-avenir text-base text-[#2E4057]">Nitya’s Mother</p>
         </div>
-        <p className="font-avenir text-base text-[#2E4057]">Nitya’s Mother</p>
       </div>
       <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
-        <div className="flex justify-between ">
+        <div className="grid grid-cols-[auto_10%] justify-between items-center ">
           <p className="text-lg font-abhy  text-[#7D1566] font-bold ">
             Girish Basrur
           </p>
-          <p className="font-avenir text-base text-[#2E4057]">
-            <a href="tel:919901746824">9902053090</a>
+          <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
+            <a href="tel:919901746824">
+              <Image src={phonesvg} width={30} height={30} />
+            </a>
           </p>
+          <p className="font-avenir text-base text-[#2E4057]">Nitya’s Father</p>
         </div>
-        <p className="font-avenir text-base text-[#2E4057]">Nitya’s Father</p>
       </div>
       <div className="border-b-2 border-dotted border-[#EAE3E8] py-2">
-        <div className="flex justify-between ">
+        <div className="grid grid-cols-[auto_10%] justify-between items-center ">
           <p className="text-lg font-abhy  text-[#7D1566] font-bold ">Nirica</p>
-          <p className="font-avenir text-base text-[#2E4057]">
-            <a href="tel:919901746824">8754464713</a>
+          <p className="font-avenir text-base text-[#2E4057] pt-[10px] pr-[10px]">
+            <a href="tel:919901746824">
+              <Image src={phonesvg} width={30} height={30} />
+            </a>
           </p>
         </div>
         <p className="font-avenir text-base text-[#2E4057]">
